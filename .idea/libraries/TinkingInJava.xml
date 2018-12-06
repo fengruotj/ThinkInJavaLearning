@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="TinkingInJava">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/TinkingInJava.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/typeinfo-pets.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
