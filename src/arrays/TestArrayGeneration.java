@@ -1,6 +1,6 @@
 //: arrays/TestArrayGeneration.java
 package arrays; /* Added by Eclipse.py */
-// Test the tools that use generators to fill arrays.
+// FunVarShare the tools that use generators to fill arrays.
 import java.util.*;
 import net.mindview.util.*;
 import static net.mindview.util.Print.*;

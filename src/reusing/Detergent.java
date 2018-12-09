@@ -25,7 +25,7 @@ public class Detergent extends Cleanser {
   }
   // Add methods to the interface:
   public void foam() { append(" foam()"); }
-  // Test the new class:
+  // FunVarShare the new class:
   public static void main(String[] args) {
     Detergent x = new Detergent();
     x.dilute();

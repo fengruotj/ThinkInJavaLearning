@@ -24,7 +24,7 @@ class Product {
     new Generator<Product>() {
       private Random rand = new Random(47);
       public Product next() {
-        return new Product(rand.nextInt(1000), "Test",
+        return new Product(rand.nextInt(1000), "FunVarShare",
           Math.round(rand.nextDouble() * 1000.0) + 0.99);
       }
     };
@@ -68,13 +68,13 @@ public class Store extends ArrayList<Aisle> {
     System.out.println(new Store(14, 5, 10));
   }
 } /* Output:
-258: Test, price: $400.99
-861: Test, price: $160.99
-868: Test, price: $417.99
-207: Test, price: $268.99
-551: Test, price: $114.99
-278: Test, price: $804.99
-520: Test, price: $554.99
-140: Test, price: $530.99
+258: FunVarShare, price: $400.99
+861: FunVarShare, price: $160.99
+868: FunVarShare, price: $417.99
+207: FunVarShare, price: $268.99
+551: FunVarShare, price: $114.99
+278: FunVarShare, price: $804.99
+520: FunVarShare, price: $554.99
+140: FunVarShare, price: $530.99
 ...
 *///:~

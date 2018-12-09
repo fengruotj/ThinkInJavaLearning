@@ -33,7 +33,7 @@ public class Staff extends ArrayList<Position> {
       "Marketing Manager", "Product Manager",
       "Project Lead", "Software Engineer",
       "Software Engineer", "Software Engineer",
-      "Software Engineer", "Test Engineer",
+      "Software Engineer", "FunVarShare Engineer",
       "Technical Writer");
     staff.fillPosition("President",
       new Person("Me", "Last", "The Top, Lonely At"));
@@ -45,5 +45,5 @@ public class Staff extends ArrayList<Position> {
     System.out.println(staff);
   }
 } /* Output:	
-[Position: President Person: Me Last The Top, Lonely At, Position: CTO NullPerson, Position: Marketing Manager NullPerson, Position: Product Manager NullPerson, Position: Project Lead Person: Janet Planner The Burbs, Position: Software Engineer Person: Bob Coder Bright Light City, Position: Software Engineer NullPerson, Position: Software Engineer NullPerson, Position: Software Engineer NullPerson, Position: Test Engineer NullPerson, Position: Technical Writer NullPerson]
+[Position: President Person: Me Last The Top, Lonely At, Position: CTO NullPerson, Position: Marketing Manager NullPerson, Position: Product Manager NullPerson, Position: Project Lead Person: Janet Planner The Burbs, Position: Software Engineer Person: Bob Coder Bright Light City, Position: Software Engineer NullPerson, Position: Software Engineer NullPerson, Position: Software Engineer NullPerson, Position: FunVarShare Engineer NullPerson, Position: Technical Writer NullPerson]
 *///:~

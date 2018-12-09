@@ -10,7 +10,7 @@ import static net.mindview.util.SwingConsole.*;
 public class Progress extends JFrame {
   private JProgressBar pb = new JProgressBar();
   private ProgressMonitor pm = new ProgressMonitor(
-    this, "Monitoring Progress", "Test", 0, 100);
+    this, "Monitoring Progress", "FunVarShare", 0, 100);
   private JSlider sb =
     new JSlider(JSlider.HORIZONTAL, 0, 100, 60);
   public Progress() {

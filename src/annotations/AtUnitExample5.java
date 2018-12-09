@@ -1,8 +1,13 @@
 //: annotations/AtUnitExample5.java
 package annotations;
-import java.io.*;
-import net.mindview.atunit.*;
-import net.mindview.util.*;
+import net.mindview.atunit.Test;
+import net.mindview.atunit.TestObjectCleanup;
+import net.mindview.atunit.TestObjectCreate;
+import net.mindview.atunit.TestProperty;
+import net.mindview.util.OSExecute;
+
+import java.io.IOException;
+import java.io.PrintWriter;
 
 public class AtUnitExample5 {
   private String text;
@@ -13,7 +18,7 @@ public class AtUnitExample5 {
   @TestObjectCreate static AtUnitExample5 create() {
     String id = Integer.toString(counter++);
     try {
-      output = new PrintWriter("Test" + id + ".txt");
+      output = new PrintWriter("FunVarShare" + id + ".txt");
     } catch(IOException e) {
       throw new RuntimeException(e);
     }

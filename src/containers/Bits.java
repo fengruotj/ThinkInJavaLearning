@@ -45,7 +45,7 @@ public class Bits {
     print("int value: " + it);
     printBitSet(bi);
 
-    // Test bitsets >= 64 bits:
+    // FunVarShare bitsets >= 64 bits:
     BitSet b127 = new BitSet();
     b127.set(127);
     print("set bit 127: " + b127);

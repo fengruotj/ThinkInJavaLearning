@@ -1,6 +1,6 @@
 //: innerclasses/ClassInInterface.java
 package innerclasses; /* Added by Eclipse.py */
-// {main: ClassInInterface$Test}
+// {main: ClassInInterface$FunVarShare}
 
 public interface ClassInInterface {
   void howdy();

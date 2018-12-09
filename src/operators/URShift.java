@@ -1,6 +1,6 @@
 //: operators/URShift.java
 package operators; /* Added by Eclipse.py */
-// Test of unsigned right shift.
+// FunVarShare of unsigned right shift.
 import static net.mindview.util.Print.*;
 
 public class URShift {

@@ -1,6 +1,6 @@
 //: containers/Tester.java
 package containers; /* Added by Eclipse.py */
-// Applies Test objects to lists of different containers.
+// Applies FunVarShare objects to lists of different containers.
 import java.util.*;
 
 public class Tester<C> {
