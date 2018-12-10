@@ -3,7 +3,7 @@ package initialization; /* Added by Eclipse.py */
 // Demonstration of a simple constructor.
 
 class Rock {
-  Rock() { // This is the constructor
+  Rock(int i) { // This is the constructor
     System.out.print("Rock ");
   }
 }
@@ -11,7 +11,7 @@ class Rock {
 public class SimpleConstructor {
   public static void main(String[] args) {
     for(int i = 0; i < 10; i++)
-      new Rock();
+      new Rock(i);
   }
 } /* Output:
 Rock Rock Rock Rock Rock Rock Rock Rock Rock Rock
