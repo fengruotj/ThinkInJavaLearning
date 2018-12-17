@@ -10,7 +10,7 @@ public class GenericsAndCovariance {
     // flist.add(new Apple());
     // flist.add(new Fruit());
     // flist.add(new Object());
-    flist.add(null); // Legal but uninteresting
+    flist.add(null); // Legal but uninteresting-
     // We know that it returns at least Fruit:
     Fruit f = flist.get(0);
   }
